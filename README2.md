@@ -45,3 +45,8 @@ sudo apt install openssh-server
  git clone http://github.com/buzzology/diffdrive_arduino
  cd src/diffdrive_arduino/
 git switch galactic
+
+
+
+sudo apt-get install ros-humble-ros-gz
+ign gazebo shapes.sdf --render-engine ogre
